@@ -37,7 +37,7 @@ fun LogoIcon(
     ) {
         Icon(
             modifier = Modifier.padding(3.dp),
-            painter = painterResource(id = R.drawable.ic_logo_letter),
+            painter = painterResource(id = R.drawable.img_welcome),
             contentDescription = null,
             tint = HeliaTheme.colors.white
         )

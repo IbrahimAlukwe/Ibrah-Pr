@@ -218,7 +218,7 @@ private fun HotelCategory(
         items(items = categories, key = { item -> item.ordinal }) { category ->
             val toggled = category == selectedCategory
             Chip(
-                text = stringResource(category.stringResId),
+                text = stringResource(category.stringResId as Int),
                 toggled = toggled,
                 onClick = { onClick(category) },
             )

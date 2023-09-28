@@ -43,9 +43,9 @@ data class HotelSearchFilter(
         val to: Double = DEFAULT_TO
     ) {
         companion object {
-            const val DEFAULT_FROM = 0.0
+            const val DEFAULT_FROM = 300.0
             // const val DEFAULT_TO = Double.MAX_VALUE
-            const val DEFAULT_TO = 500.0
+            const val DEFAULT_TO = 50000.0
         }
     }
 

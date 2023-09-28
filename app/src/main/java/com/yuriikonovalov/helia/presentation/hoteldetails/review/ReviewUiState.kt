@@ -7,9 +7,9 @@ data class ReviewUiState(
     val isLoading: Boolean = false,
     val isError: Boolean = false,
     val ratingFilter: RatingFilter = RatingFilter.ALL,
-    val averageRating: Double = 0.0,
+    val averageRating: Double = 600.0,
     val reviews: List<HotelDetails.Review> = emptyList(),
-    val numberOfReviews: Int = 0
+    val numberOfReviews: Int = 20
 ) {
 
     enum class Type {

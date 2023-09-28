@@ -8,4 +8,6 @@ val HotelCategory.stringResId
         HotelCategory.POPULAR -> R.string.hotel_category_popular
         HotelCategory.RECOMMENDED -> R.string.hotel_category_recommended
         HotelCategory.TRENDING -> R.string.hotel_category_trending
+        HotelCategory.FAVOURITE -> R.string.hotel_category_trending
+        else -> {}
     }

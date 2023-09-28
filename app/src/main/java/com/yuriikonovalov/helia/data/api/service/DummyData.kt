@@ -10,11 +10,11 @@ import kotlin.random.Random
 
 private val reviewAuthors = listOf(
     HotelProfile.Review.Author(
-        name = "Emily Johnson",
+        name = "Ibrahim",
         avatarUrl = "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=461&q=80"
     ),
     HotelProfile.Review.Author(
-        name = "Robert Harris",
+        name = "Ezra",
         avatarUrl = "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
     ),
     HotelProfile.Review.Author(
@@ -76,30 +76,30 @@ private fun randomReviews(): List<HotelProfile.Review> {
 
 
 private val hotelNames = listOf(
-    "Luxury Haven Hotel",
-    "Riverside Retreat",
+    "Luxury Baobao beach Resort & Spa",
+    "Diani Reef Beach Resort & Spa",
     "Sarova Stanley Hotel",
     "Olesereni Hotel",
     "Serenity Sands Resort",
-    "Crystal Haven Inn",
-    "Whispering Pines Lodge",
-    "Moonlit Mirage Hotel",
-    "Enchanted Oasis Retreat",
-    "Velvet Horizon Suites",
-    "Radiant Meadows Inn",
-    "Azure Breeze Lodge",
-    "Twilight Grove Manor",
-    "Golden Crest Resort",
-    "Starlight Haven Hotel",
-    "Tranquil Harbor Retreat",
-    "Misty Peaks Lodge",
-    "Aurora Skies Inn",
-    "Secret Garden Manor",
-    "Harmony Springs Retreat",
-    "Dreamscape Suites",
-    "Celestial Shores Resort",
-    "Emberwood Lodge",
-    "Midnight Velvet Inn"
+    "The Sand At Chale Island",
+    "Hemingways Watamu",
+    "Mara Explorer",
+    "Gigiri Lion Villas",
+    "Sagana Getaway",
+    "Upani in Diani",
+    "Bianca and Pietro House",
+    "Leopard Point Luxury Beach Resort",
+    "Sarova Whitesands Beach Resort",
+    "Medina Palms",
+    "Ole Itiko Cottages",
+    "True BEach House on the Ocean",
+    "Nyati Hill Cottages",
+    "Orchid Homes",
+    "Bahari Beach Hotel",
+    "Borana Lodge",
+    "The Sand at Nomad Hotel",
+    "Billionair Resort and Retreat",
+    "Maiyan"
 )
 
 private val hotelAddresses = listOf(
@@ -107,9 +107,9 @@ private val hotelAddresses = listOf(
         longitude = "-0.076132",
         latitude = "51.508530"
     ) to HotelProfile.Address(
-        country = "England",
-        city = "London",
-        addressLine1 = "123 Park Lane"
+        country = "Kenya",
+        city = "Kisumu",
+        addressLine1 = "Kisumu"
     ),
     HotelProfile.Location(
         longitude = "-1.2843567",
@@ -117,143 +117,143 @@ private val hotelAddresses = listOf(
     ) to HotelProfile.Address(
         country = "Kenya",
         city = "Nairobi",
-        addressLine1 = "Junction of kenyatta avenue"
+        addressLine1 = "Nairobi"
     ),
     HotelProfile.Location(
         longitude = "-0.076132",
         latitude = "51.508530"
     ) to HotelProfile.Address(
-        country = "England",
-        city = "London",
-        addressLine1 = "123 Park Lane"
+        country = "Kenya",
+        city = "Mombasa",
+        addressLine1 = "Mombasa"
     ),
     HotelProfile.Location(
         longitude = "-0.076132",
         latitude = "51.508530"
     ) to HotelProfile.Address(
-        country = "England",
-        city = "London",
-        addressLine1 = "78 High Street"
+        country = "Kenya",
+        city = "Eldoret",
+        addressLine1 = "Eldoret"
     ),
     HotelProfile.Location(
         longitude = "-2.244644",
         latitude = "53.483959"
     ) to HotelProfile.Address(
-        country = "England",
-        city = "Manchester",
-        addressLine1 = "17 Willow Crescent"
+        country = "Kenya",
+        city = "Voi",
+        addressLine1 = "Voi"
     ),
     HotelProfile.Location(
         longitude = "-1.898575",
         latitude = "52.489471"
     ) to HotelProfile.Address(
-        country = "England",
-        city = "Birmingham",
-        addressLine1 = "8 Ivy Lane"
+        country = "Kenya",
+        city = "Lamu",
+        addressLine1 = "Lamu"
     ),
     HotelProfile.Location(
         longitude = "2.154007",
         latitude = "41.390205"
     ) to HotelProfile.Address(
-        country = "Spain",
-        city = "Barcelona",
-        addressLine1 = "Calle del Sol, 23"
+        country = "Kenya",
+        city = "Nakuru",
+        addressLine1 = "Nakuru"
     ),
     HotelProfile.Location(
         longitude = "2.154007",
         latitude = "41.390205"
     ) to HotelProfile.Address(
-        country = "Spain",
-        city = "Madrid",
-        addressLine1 = "Plaza Rosal, 8"
+        country = "Kenya",
+        city = "Kisumu",
+        addressLine1 = "Kisumu"
     ),
     HotelProfile.Location(
         longitude = "-3.703790",
         latitude = "40.416775"
     ) to HotelProfile.Address(
-        country = "Spain",
-        city = "Madrid",
-        addressLine1 = "Avenida del Mar, 42"
+        country = "Kenya",
+        city = "Nairobi",
+        addressLine1 = "Nairobi"
     ),
     HotelProfile.Location(
         longitude = "-5.994072",
         latitude = "37.392529"
     ) to HotelProfile.Address(
-        country = "Spain",
-        city = "Seville",
-        addressLine1 = "Carrer de la Luna, 15"
+        country = "Kenya",
+        city = "Mombasa",
+        addressLine1 = "Mombasa"
     ),
     HotelProfile.Location(
         longitude = "-89.650002",
         latitude = "39.799999"
     ) to HotelProfile.Address(
-        country = "USA",
-        city = "Springfield",
-        addressLine1 = "456 Oak Avenue"
+        country = "Kenya",
+        city = "Eldoret",
+        addressLine1 = "456 Eldoret"
     ),
     HotelProfile.Location(
         longitude = "-122.083855",
         latitude = "37.386051"
     ) to HotelProfile.Address(
-        country = "USA",
-        city = "Mountainview",
-        addressLine1 = "555 Birch Court"
+        country = "Kenya",
+        city = "Mombasa",
+        addressLine1 = "555 Mombasa"
     ),
     HotelProfile.Location(
         longitude = "-122.335167",
         latitude = "47.608013"
     ) to HotelProfile.Address(
-        country = "USA",
-        city = "Seattle",
-        addressLine1 = "567 Meadow Lane"
+        country = "Kenya",
+        city = "Kisumu",
+        addressLine1 = "567 Kisumu"
     ),
     HotelProfile.Location(
         longitude = "-80.191788",
         latitude = "25.761681"
     ) to HotelProfile.Address(
-        country = "USA",
-        city = "Miami",
-        addressLine1 = "890 Sunset Boulevard"
+        country = "Kenya",
+        city = "Nairobi",
+        addressLine1 = "890 Nairobi"
     ),
     HotelProfile.Location(
         longitude = "-122.676483",
         latitude = "45.523064"
     ) to HotelProfile.Address(
-        country = "USA",
-        city = "Portland",
-        addressLine1 = "678 Lakeview Drive"
+        country = "Kenya",
+        city = "Eldoret",
+        addressLine1 = "678 Eldoret Drive"
     ),
     HotelProfile.Location(
         longitude = "12.496366",
         latitude = "41.902782"
     ) to HotelProfile.Address(
-        country = "Italy",
-        city = "Roma",
-        addressLine1 = "Via Roma, 10"
+        country = "Kenya",
+        city = "Lamu",
+        addressLine1 = "Via Mombasa, 10"
     ),
     HotelProfile.Location(
         longitude = "9.188540",
         latitude = "45.464664"
     ) to HotelProfile.Address(
-        country = "Italy",
-        city = "Milano",
-        addressLine1 = "Corso Milano, 5"
+        country = "Kenya",
+        city = "Kisumu",
+        addressLine1 = "Corso Kisumu, 5"
     ),
     HotelProfile.Location(
         longitude = "12.327145",
         latitude = "45.438759"
     ) to HotelProfile.Address(
-        country = "Italy",
-        city = "Venezia",
-        addressLine1 = "Via Venezia, 15"
+        country = "Kenya",
+        city = "Thika",
+        addressLine1 = "Via Nairobi, 15"
     ),
     HotelProfile.Location(
         longitude = "14.305573",
         latitude = "40.853294"
     ) to HotelProfile.Address(
-        country = "Italy",
-        city = "Napoli",
-        addressLine1 = "Via Napoli, 20"
+        country = "Kenya",
+        city = "Kiambu",
+        addressLine1 = "Via Nairobi, 20"
     )
 )
 

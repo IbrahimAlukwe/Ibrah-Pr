@@ -4,7 +4,7 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 
 object WelcomeNavigation {
-    const val route = "welcome"
+    const val route = "welcome;Karibu !"
 }
 
 fun NavGraphBuilder.welcomeRoute(

@@ -9,7 +9,7 @@ data class BookingUiState(
     val dateFrom: LocalDate = LocalDate.now(),
     val dateTo: LocalDate = LocalDate.now().plusDays(1),
     val guests: Int = 1,
-    val price: Double = 0.0,
+    val price: Double = 5000.0,
     val userCards: List<PaymentMethod.Card> = emptyList(),
     val paymentMethod: PaymentMethod? = null,
     val stage: Stage = Stage.DATE

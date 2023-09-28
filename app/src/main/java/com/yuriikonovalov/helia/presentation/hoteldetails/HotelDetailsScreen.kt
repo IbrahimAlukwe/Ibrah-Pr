@@ -301,7 +301,7 @@ private fun HotelDetails(
             }
             BookPanel(
                 modifier = Modifier.fillMaxWidth(),
-                price = "$${details.hotel.price.toInt()}",
+                price = "Ksh${details.hotel.price.toInt()}",
                 onClick = onBookClick
             )
         }

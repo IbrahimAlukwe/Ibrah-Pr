@@ -168,7 +168,7 @@ private fun RemoveBookmarkBottomSheet(
         ListHotelCard(
             imageUrl = hotel.hotel.imageUrl,
             name = hotel.hotel.name,
-            city = "$${hotel.hotel.city}, ${hotel.hotel.country}",
+            city = "Ksh${hotel.hotel.city}, ${hotel.hotel.country}",
             rating = hotel.displayRating,
             reviews = stringResource(id = R.string.number_of_reviews, hotel.hotel.numberOfReviews),
             pricePerNight = hotel.displayPrice,

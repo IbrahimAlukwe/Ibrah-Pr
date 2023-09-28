@@ -268,7 +268,7 @@ private fun HotelCategories(
             Chip(
                 toggled = category == selectedCategory,
                 onClick = { onHotelCategoryClick(category) },
-                text = stringResource(category.stringResId)
+                text = stringResource(category.stringResId as Int)
             )
         }
     }
@@ -427,7 +427,7 @@ private fun HotelsHeader(
     val text = if (hotelCategory == null) {
         stringResource(R.string.search_screen_all, numberOfHotels)
     } else {
-        stringResource(hotelCategory.stringResId) + " ($numberOfHotels)"
+        stringResource(hotelCategory.stringResId as Int) + " ($numberOfHotels)"
     }
 
     Row(
@@ -458,6 +458,8 @@ private fun HotelsHeader(
         }
     }
 }
+
+
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -701,8 +703,8 @@ private fun PriceFilter(
                     )
                 )
             },
-            startThumb = { PriceSliderThumb(text = "$${priceRange.from.toInt()}") },
-            endThumb = { PriceSliderThumb(text = "$${priceRange.to.toInt()}") },
+            startThumb = { PriceSliderThumb(text = "Ksh${priceRange.from.toInt()}") },
+            endThumb = { PriceSliderThumb(text = "Ksh${priceRange.to.toInt()}") },
             colors = colors
         )
     }

@@ -6,6 +6,6 @@ data class HotelSummary(
     val hotel: Hotel,
     val isBookmarked: Boolean
 ) {
-    val displayPrice = "$${hotel.price.roundToInt()}"
+    val displayPrice = "Ksh${hotel.price.roundToInt()}"
     val displayRating = hotel.rating.toString()
 }
